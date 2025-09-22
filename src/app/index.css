@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.class {
+  width: 480px;
+  height: 655px;
+  background-color: white;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.class1 {
+  width: 480px;
+  height: 700px;
+  background-color: white;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.class2 {
+  width: 480px;
+  height: 193px;
+  background-color: white;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.logo {
+  display: flex;
+  justify-content: start;
+  margin-left: 32px;
+  margin-top: 25px;
+}
+.logo1 {
+  margin-left: 32px;
+}
+.logo2 {
+  display: flex;
+  gap: 28px;
+  margin-left: 32px;
+  margin-top: 10px;
+}
+.logo3 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 32px;
+  gap: 8px;
+  justify-content: center;
+}
+.text {
+  width: 416px;
+  height: 31px;
+  font-size: 26px;
+  font-weight: 600;
+  color: #202124;
+}
+.text2 {
+  width: 416px;
+  height: 22px;
+  color: #8e8e8e;
+  font-size: 18px;
+  font-weight: 400;
+}
+.firstname {
+  width: 416px;
+  height: 16px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #334155;
+}
+.star {
+  font-weight: 600;
+  font-size: 14px;
+  color: red;
+}
+.box {
+  width: 416px;
+  height: 44px;
+  border-radius: 8px;
+  padding: 12px;
+  border-color: lightgray;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+}
+.head {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 30px;
+}
+.button {
+  background-color: black;
+  color: #ffff;
+  border-radius: 6px;
+  width: 416px;
+  height: 44px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+}
+.butt {
+  display: flex;
+  justify-content: center;
+  margin-top: 110px;
+}
+.backbutton {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  flex-direction: row;
+  gap: 10px;
+}
+.buttons {
+  background-color: black;
+  color: #ffff;
+  border-radius: 6px;
+  width: 280px;
+  height: 44px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+}
+.back {
+  width: 128px;
+  height: 44px;
+  background: transparent;
+  color: black;
+  border-color: lightgrey;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.image {
+  width: 416px;
+  height: 180px;
+  background-color: #f0f0f0;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+}
+.image-upload {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 416px;
+  height: 208px;
+  gap: 10px;
+  flex-direction: column;
+}
+.add {
+  font-size: 14px;
+  font-weight: 500;
+}
